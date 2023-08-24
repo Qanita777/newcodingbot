@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+  
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+li, a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    font-size: larger;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0 7px;
+    
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+    position: relative;
+    z-index: 1;
+
+}
+nav ul li a::after{
+    content:" ";
+    width:0%;
+    height:100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    border-radius: 20px;
+    background-color:#2c81be ;
+    z-index: -1;
+   transition: 0.5s; 
+}
+nav ul li a:hover:after{
+    width:100%;
+}
+.text {
+    
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.text1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left:8px ;
+}
+button{
+    height: 40px;
+    width:  120px;
+    border-radius: 50px;
+    background-color: rgb(8,8,75);
+    color: white;
+    border-color: white;
+    margin-left: 50px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(8,8,75);
+}
+.image{
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-right: 175px;
+}
+.text2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+
+
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(white );
+}
+
+.last{
+    background-color: white;
+    
+}
+.last{
+    margin-left: 15px;
+    margin-right: 15px;
+    display:i;
+}
+
+.section h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0.6rem 0;
+    font-weight: 600;
+    color:#070024 ;
+
+}
+
+   .container{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    font-family: 'Belanosima', sans-serif;
+}
+.box1{
+    width: 22%;
+    height:400px;
+    background-color: palevioletred;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box1 i{
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+p, a{
+    margin-left: 10px;
+    font-size: x-large;
+    font-family: 'Montserrat';
+    margin-right: 20px;
+}
+h1{
+    margin-left: 10px;
+}
+.box2{
+    width: 22%;
+    height:400px;
+    background-color: rgba(255, 255, 0, 0.801);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box3{
+    width: 22%;
+    height:400px;
+    background-color: lightblue;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box4{
+    width: 22%;
+    height:400px;
+    background-color: rgb(144, 238, 167);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box2 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box3 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box4 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box1 a:hover{
+    text-decoration: underline;    
+}
+.box2 a:hover{
+    text-decoration: underline;    
+}
+.box3 a:hover{
+    text-decoration: underline;    
+}
+.box4 a:hover{
+    text-decoration: underline;    
+}
+.mine:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+
+}
